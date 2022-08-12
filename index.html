@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Leap Year Calculator</h1>
-    <section>
+    <header>
         <h2>Did you know!?</h2>
         <p>
             It takes 365 days for the Earth to make one complete revolution around the sun.
@@ -19,7 +19,7 @@
             To ensure that the times and seasons stay the same from year to year, we add an additional
             day to the end of February. Every 4 years, February has 29 days instead of 28. We call this a <span>Leap Year!</span>
         </p>
-    </section>
+    </header>
     <main>
         <div>
             <p>How can you tell if a particular year is a Leap Year?</p>
@@ -28,12 +28,19 @@
         <div>
             <form action="">
                 <label for="year"></label>
-                <input name="year" type="number" max="9999">
+                <input name="year" type="number" max="9999" placeholder="2000" value="2020">
                 <div>
-                    <button type="submit">Leap Year?</button>
+                    <button type="button" id="submit">Leap Year?</button>
                 </div>
             </form>
         </div>
+        <div>
+            <p><span id="year"></span> <span id="result"></span></p>
+        </div>
+        <div>
+            <p>Enter another year to try again!</p>
+        </div>
+        <script src="./leap_year.js"></script>
     </main>
     
 </body>
