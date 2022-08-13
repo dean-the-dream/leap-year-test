@@ -15,6 +15,7 @@ body {
 }
 nav {
    overflow: auto;
+   background-color: rgba(0, 0, 0, .60);
 }
 
 nav div {
@@ -44,6 +45,11 @@ section {
     height: 600px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 section#title h1 {
     margin: 260px auto;
 }
@@ -56,6 +62,6 @@ main{
     float: left;
 }
 
-main,section, nav {
+/* main,section, nav {
     border: solid black 1px;
-}
+} */
