@@ -35,9 +35,9 @@ nav ul li{
     margin-right: 20px;
 }
 
-.float-break{
+/* .float-break{
     clear: both;
-}
+} */
 
 
 section {
@@ -70,7 +70,9 @@ section#header {
 
 #content1, #content2{
     height: 260px;
-    padding-top: 40px
+    
+    padding-top: 40px;
+    overflow: auto;
 }
 
 section p {
@@ -78,19 +80,31 @@ section p {
     width:80%;
     height: 80%;
     margin: auto;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px black; min-height:fit-content;
+}
+
+
+main div#container{
+    width:60%;
+    height:65vh;  
+    float: left;
+    background-color: rgba(23, 28, 40, .5);
+    margin: auto;
     padding: 40px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 2px 4px black; 
+    box-shadow: 0 2px 4px black;
 }
 
-main{
-    width:66.666%;
-    height:300px;  
-    float: left;
-}
 
-form
-main, section, nav, h2  {
+main, section, nav, h2, main   {
     border: solid black 1px;
+}
+
+ main   {
+    border: solid blue 3px;
+    overflow: auto;
 }

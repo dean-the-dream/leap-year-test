@@ -41,27 +41,28 @@
         </p>
     </section>
     <main >
-        <div>
+        <div id="container" >
+            <div>
             <p>How can you tell if a particular year is a Leap Year?</p>
             <p>Use this wepage, of course!</p>
-        </div>
-        <div>
-            <form>
-                <label for="year"></label>
-                <input name="year" type="number" max="9999" placeholder="2000">
-                <div>
-                    <button type="button" id="submit" onclick ="changeYear(); yearResults();">Leap Year?</button>
-                </div>
-            </form>
-        </div>
-        <div>
-            <p class="float-break"><span id="year"></span> <span id="result"></span></p>
-        </div>
-        <div>
+            </div>
+            <div >
+                <form>
+                    <label for="year"></label>
+                    <input name="year" type="number" max="9999" placeholder="2000">
+                    <div>
+                        <button type="button" id="submit" onclick ="changeYear(); yearResults();">Leap Year?</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <p class="float-break"><span id="year"></span> <span id="result"></span></p>
+            </div>
+            <div>
             <p id="tagline">Enter another year to try again!</p>
+        </div> 
         </div>
-        <script src="./leap_year.js"></script>
     </main>
-    
+    <script src="./leap_year.js"></script>
 </body>
 </html>
