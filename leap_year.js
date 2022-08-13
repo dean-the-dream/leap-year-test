@@ -1,17 +1,28 @@
-let userYear; 
+// const userYear; = document.getElementsByTagName("input")[0].value;
+let userYear;
 let leapYear;
-// function processYear() {
-//    userYear = document.getElementsByTagName("input")
-    
-//     if (!(year % 4) && !(year % 100) && !(year % 400)) {
-//     leapYear = true;
-//     }
-//     else{
-//         leapYear = false;
-//     }
-// }
-// let button = document.getElementById("submit");
-// button.addEventListener("click", processYear())
 
-userYear = document.getElementsByTagName("input")
-console.log(userYear[0].value);
+function changeYear() {
+userYear = document.getElementsByTagName("input")[0].value;
+document.getElementById("year").innerHTML = userYear;
+    
+}
+
+userYearNum = Number(userYear);
+
+function yearResults(){
+    if (!(userYear % 4) && !(userYear % 100) && !(userYear % 400)) { 
+    leapYear = "is a Leap Year!"
+    }
+    else {
+        leapYear = "is not a Leap Year"
+    }
+    document.getElementById("result").innerHTML = leapYear
+}
+
+// document.getElementById("year").onclick = changeYear()
+
+// userYear = document.getElementsByTagName("input")[0].value
+// document.getElementById("year").innerHTML = userYear
+console.log(userYear);
+console.log(document.getElementById("result").TEXT_NODE) 
