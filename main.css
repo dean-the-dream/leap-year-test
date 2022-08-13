@@ -14,8 +14,8 @@ body {
     font-size: 20px;
 }
 nav {
-   overflow: auto;
-   background-color: rgba(0, 0, 0, .60);
+    overflow: auto;
+    background-color: rgba(23, 28, 40);
 }
 
 nav div {
@@ -39,11 +39,13 @@ nav ul li{
     clear: both;
 }
 
+
 section {
     float: left;
     width: 33.333%;
-    height: 600px;
+    height: 100vh;
 }
+
 
 a {
     color: white;
@@ -51,10 +53,22 @@ a {
 }
 
 section#title h1 {
-    margin: 260px auto;
+    margin: 50vh auto;
 }
+
+section#header {
+    height: 80px;
+    width: 66.66%;
+    text-align: center;
+}
+
+/* section#header h2 {
+    width: auto;
+    margin: auto;
+} */
+
 #content1, #content2{
-    height: 300px;
+    height: 260px;
 }
 main{
     width:66.666%;
@@ -62,6 +76,6 @@ main{
     float: left;
 }
 
-/* main,section, nav {
+main,section, nav h2 {
     border: solid black 1px;
-} */
+}
