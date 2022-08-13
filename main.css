@@ -9,13 +9,13 @@
 body { 
     background-color: beige;
     background-size: cover;
-    color: black;
+    color: white;
     font-family:'Source Sans Pro', sans-serif;
     font-size: 20px;
 }
 nav {
     overflow: auto;
-    background-color: rgba(23, 28, 40);
+    background-color: #171c28;
 }
 
 nav div {
@@ -60,6 +60,7 @@ section#header {
     height: 80px;
     width: 66.66%;
     text-align: center;
+    padding: 17px;
 }
 
 /* section#header h2 {
@@ -69,13 +70,27 @@ section#header {
 
 #content1, #content2{
     height: 260px;
+    padding-top: 40px
 }
+
+section p {
+    background-color: rgba(23, 28, 40, .5);
+    width:80%;
+    height: 80%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px black; 
+}
+
 main{
     width:66.666%;
     height:300px;  
     float: left;
 }
 
-main,section, nav h2 {
+form
+main, section, nav, h2  {
     border: solid black 1px;
 }
