@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -5,12 +7,13 @@
 }
 
 body { 
-    background-color: rgb(223, 223, 223);
+    background-color: beige;
     background-size: cover;
     color: black;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
 nav {
-   border: solid black 3px;
    overflow: auto;
 }
 
@@ -20,14 +23,14 @@ nav div {
 }
 
 nav div img {
-    height: 100px;
+    height: 60px;
     margin: 10px;
 }
 
 nav ul li{
     float: left;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-right: 20px;
 }
 
@@ -36,18 +39,23 @@ nav ul li{
 }
 
 section {
-    border: solid black 3px;
     float: left;
     width: 33.333%;
-    height: 500px;
+    height: 600px;
 }
 
+section#title h1 {
+    margin: 260px auto;
+}
 #content1, #content2{
-    height: 250px;
+    height: 300px;
 }
 main{
     width:66.666%;
-    height:250px;
-    border: solid black 1px;
+    height:300px;  
     float: left;
+}
+
+main,section, nav {
+    border: solid black 1px;
 }
