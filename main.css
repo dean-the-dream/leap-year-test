@@ -18,6 +18,7 @@ nav {
     width: 100%; */
     overflow: auto;
     background-color: #171c28;
+    height: 100px;
 }
 
 nav div {
@@ -32,14 +33,15 @@ nav div img {
 
 nav ul{
     overflow: auto;
-    height: 100
-}
-nav ul li{
-    float: left;
     height: 100%;
-    list-style: none;
+}
 
+nav ul li {
+    float: left;
+    /* height: 100%; */
+    list-style: none;
     margin-right: 3%;
+    margin-top: 5%;
 }
 
 nav ul li:hover {
@@ -63,7 +65,8 @@ section#title h1 {
     margin: 50vh auto;
     text-align: center;
     font-size: 3rem;
-    transform: rotate(270deg)
+    transform: rotate(270deg);
+    width: 80vh;
 }
 
 section#header {
@@ -101,10 +104,7 @@ main {
     height:44vh;  
     float: right;
     justify-content: center;
-    
-    
     overflow: auto;
-    left: 
 }
 
 main div#container {
@@ -116,6 +116,12 @@ main div#container {
     border-radius: 10px;
     padding: 40px;
     margin: auto;
+}
+input {
+    text-align: center; 
+    font-size:larger;
+    padding: 1%;
+    margin: 1%;
 }
 
 
