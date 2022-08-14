@@ -30,17 +30,25 @@ nav div img {
     margin: 10px;
 }
 
+nav ul{
+    overflow: auto;
+    height: 100
+}
 nav ul li{
     float: left;
+    height: 100%;
     list-style: none;
-    margin-top: 30px;
-    margin-right: 20px;
+
+    margin-right: 3%;
 }
 
+nav ul li:hover {
+    background-color: rgb(47, 79, 153);
+}
 
 section {
     float: left;
-    width: 33.333%;
+    width: 20%;
     height: 100vh;
 }
 
@@ -60,7 +68,7 @@ section#title h1 {
 
 section#header {
     height: 12vh;
-    width: 66.66%;
+    width: 80%;
     text-align: center;
     padding: 17px;
 }
@@ -71,7 +79,7 @@ section#title, section#header  {
 
 #content1, #content2{
     height: 44vh;
-    
+    width: 40%;
     padding-top: 40px;
     overflow: auto;
 }
@@ -89,7 +97,7 @@ section p {
 
 main {
     overflow: auto;    
-    width:66.66%;
+    width:80%;
     height:44vh;  
     float: right;
     justify-content: center;
@@ -119,7 +127,7 @@ main div#container {
     border: solid black 1px;
 }
 
- main  {
+ li, ul {
     border: solid blue 1px;
     
 } */
