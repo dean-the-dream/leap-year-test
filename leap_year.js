@@ -8,8 +8,6 @@ function changeYear() {
     userYearNum = Number(userYear);   
 }
 
-
-
 function yearResults() {
     if (!(userYearNum % 4)){
         if (!(userYearNum % 100)) {

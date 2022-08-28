@@ -14,8 +14,6 @@ body {
     font-size: 20px;
 }
 nav {
-    /* position: fixed;
-    width: 100%; */
     overflow: auto;
     background-color: #171c28;
     height: 100px;
@@ -38,7 +36,6 @@ nav ul{
 
 nav ul li {
     float: left;
-    /* height: 100%; */
     list-style: none;
     margin-right: 3%;
     margin-top: 5%;
